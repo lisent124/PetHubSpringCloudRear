@@ -1,0 +1,22 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: file:D:\Projects\javaProjects\PetHubSpringCloud\static
+  application:
+    name: EntreService
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        namespace: 9335557b-09d2-412f-a494-5fb9bba525b8
+        group: PetHub
+        shared-configs[0]:
+          data_id: common-config.yml
+          group: PetHub
+          refresh: true
+        shared-configs[1]:
+          data_id: sqlite-config.yml
+          group: PetHub
+          refresh: true

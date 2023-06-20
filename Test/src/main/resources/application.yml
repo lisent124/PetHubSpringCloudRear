@@ -1,0 +1,23 @@
+#端口，项目上下文
+server:
+  port: 7000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: "9335557b-09d2-412f-a494-5fb9bba525b8"
+        group: PetHub
+
+  datasource:
+#    username:
+#    password:
+    url: jdbc:sqlite:D:\Projects\javaProjects\PetHubSpringCloud\db.sqlite3
+    driver-class-name: org.sqlite.JDBC
+    # 初始化表
+#    schema: classpath:schema.sql
+#    # 初始化数据
+#    data: classpath:data.sql
+#    initialization-mode: always
+#    continue-on-error: true

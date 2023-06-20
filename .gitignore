@@ -1,0 +1,8 @@
+# Project exclude paths
+/Blog/target/
+/Entre/target/
+/GateWay/target/
+/Order/target/
+/Parlour/target/
+/Test/target/
+/User/target/

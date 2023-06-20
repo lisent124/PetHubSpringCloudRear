@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Parlour" />
+        <module name="Order" />
+        <module name="User" />
+        <module name="Test" />
+        <module name="GateWay" />
+        <module name="Blog" />
+        <module name="Entre" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Blog" options="-parameters" />
+      <module name="Entre" options="-parameters" />
+      <module name="GateWay" options="-parameters" />
+      <module name="Order" options="-parameters" />
+      <module name="Parlour" options="-parameters" />
+      <module name="PetHubSpringCloud" options="-parameters" />
+      <module name="Test" options="-parameters" />
+      <module name="User" options="-parameters" />
+    </option>
+  </component>
+</project>
